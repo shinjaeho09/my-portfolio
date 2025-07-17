@@ -1,12 +1,73 @@
-# React + Vite
+## 포트폴리오 구성
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 0. 파일 구조 
+src/
+├── components/
+│   ├── atoms/          # Basic building blocks
+│   │   ├── Button.jsx
+│   │   ├── Tag.jsx
+│   │   └── ProfileImage.jsx
+│   ├── molecules/      # Simple combinations of atoms
+│   │   ├── NavLinks.jsx
+│   │   └── SearchBar.jsx
+│   └── organisms/      # Complex UI components
+│       ├── Header.jsx
+│       ├── ProjectCard.jsx
+│       ├── SkillList.jsx
+│       └── AboutSection.jsx
+├── pages/              # Page components
+│   ├── Home.jsx
+│   ├── Projects.jsx
+│   ├── About.jsx
+│   └── Contact.jsx
+├── data/               # Sample data
+│   └── projects.js
+└── App.jsx            # Main app component
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 1. 소개
 
-## Expanding the ESLint configuration
+“도전을 즐기며 끊임없이 성장하는 개발자 신재호 입니다.”
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+매일 새로운 기술을 배우고, 다양한 분야를 넘나들며 성장하고 있습니다.
+
+---
+
+## 2. 프로젝트
+
+### 🛒 쇼핑몰 웹사이트 제작
+
+- React와 TailwindCSS를 활용해 직관적인 디자인을 적용한 쇼핑몰 사이트입니다.   
+- [프로젝트 바로가기](--)
+
+---
+
+### 🌤 실시간 날씨 확인 앱
+
+- OpenWeather API를 이용해 언제 어디서든 날씨 정보를 빠르게 확인할 수 있는 웹앱입니다.  
+- 사용자의 편의성을 고려한 깔끔한 인터페이스가 특징입니다.  
+- [프로젝트 바로가기](https://shinjaeho09.github.io/weather-app/)
+
+---
+
+## 3. 내가 사용하는 기술들
+
+- JavaScript
+- React, TailwindCSS, Vite  
+- Git, GitHub, Zustand
+
+---
+
+## 4. 목표
+
+> "사용자 중심의 서비스와 효율적인 시스템을 모두 이해하는 개발자가 되는 것이 목표입니다."
+
+---
+
+## 5. 프로젝트 검색 기능 개발 계획
+
+React의 상태 관리(useState 또는 Zustand)를 활용해 원하는 프로젝트를 찾을 수 있도록 구현할 예정입니다.
+
+---
+
+© 2025 신재호
