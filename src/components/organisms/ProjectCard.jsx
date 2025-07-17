@@ -27,9 +27,6 @@ const ProjectCard = ({
           src={image}
           alt={title}
           className="w-full h-48 object-cover"
-          onError={(e) => {
-            e.target.src = 'https://via.placeholder.com/400x200/3b82f6/ffffff?text=Project+Image';
-          }}
         />
         {featured && (
           <div className="absolute top-4 left-4">
